@@ -15,7 +15,7 @@
 
 <h2>HTML</h2>
 
-![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/src1.pmg)
+![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/src1.png)
 Выглядит куда интересней, чем обычный index.html, правда?
 
 Разберем содержимое немного поподробнее:
@@ -24,7 +24,7 @@
 
 <h2>Отдельная "башка"</h2>
 
-![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/src2.pmg)
+![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/src2.png)
 Отдельный head.html для добавления подключений и прочих настроек
 
 С помощью Sass head.html вписывается в index.html в окончательном варианте файла (об этом подробнее позже)
@@ -35,7 +35,7 @@ Title страницы вписывается в "title":"Главная", а п
 
 <h2>Тело страницы</h2>
 
-![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/src3.pmg)
+![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/src3.png)
 Тело страницы включает в себя основную часть - main, в которой располагается основной контент, а так же подключенные, похожим образом в heal, header и footer
 
 Так же к нему подключен app.js - основной файл для кода JavaScript(подробнее поговорим о нем позже)
@@ -44,14 +44,14 @@ Title страницы вписывается в "title":"Главная", а п
 
 <h2>footer.html</h2>
 
-![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/src4.pmg)
+![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/src4.png)
 "Подвал" сайта работает аналогично header и, так же, настраивается и подключен отдельно, больше нечего сказать
 
 
 
 <h2>Великий и ужасный - Sass</h2>
 
-![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/src5.pmg)
+![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/src5.png)
 Это основной файл - style.scss с подключенными в него отдельными файлами .scss
 
 К сборке подключен Sass/SCSS, который удобно настроен для работы со стилями. Все стили Вашего сайта будут поделены на:
@@ -69,7 +69,7 @@ style.scss - основной файл стилей, содержит в себ�
 
 <h2>JavaScript</h2>
 
-![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/src6.pmg)
+![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/src6.png)
 В основной файл JavaScript app.js служит для подключения модулей всего вашего сайта. В него уже импортированы два модуля:
 
 
@@ -161,10 +161,10 @@ npm run deploy
 
 Команда выгружает уже законченную и отформатированную версию сайта на сервер по FTP. Для настройки FTP необходимо зайти по адресу gulp/config/ftp.js и настроить следующие данные:
 
-![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/src7.pmg)
+![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/src7.png)
 А так же необходимо указать название папки в gulp/config/path.js
 
-![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/src8.pmg)
+![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/src8.png)
 
 
 <h2>zip</h2>
