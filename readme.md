@@ -14,8 +14,8 @@
 
 
 <h2>HTML</h2>
-<br>
-![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/scr1.png)<br>
+
+![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/scr1.png)
 Выглядит куда интересней, чем обычный index.html, правда?
 
 Разберем содержимое немного поподробнее:
@@ -23,7 +23,7 @@
 
 
 <h2>Отдельная "башка"</h2>
-<br>
+
 ![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/scr2.png)<br>
 Отдельный head.html для добавления подключений и прочих настроек
 
@@ -34,7 +34,7 @@ Title страницы вписывается в "title":"Главная", а п
 
 
 <h2>Тело страницы</h2>
-<br>
+
 ![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/scr3.png)<br>
 Тело страницы включает в себя основную часть - main, в которой располагается основной контент, а так же подключенные, похожим образом в heal, header и footer
 
@@ -43,14 +43,14 @@ Title страницы вписывается в "title":"Главная", а п
 
 
 <h2>footer.html</h2>
-<br>
+
 ![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/scr4.png)<br>
 "Подвал" сайта работает аналогично header и, так же, настраивается и подключен отдельно, больше нечего сказать
 
 
 
 <h2>Великий и ужасный - Sass</h2>
-<br>
+
 ![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/scr5.png)<br>
 Это основной файл - style.scss с подключенными в него отдельными файлами .scss
 
@@ -68,7 +68,7 @@ style.scss - основной файл стилей, содержит в себ�
 
 
 <h2>JavaScript</h2>
-<br>
+
 ![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/scr6.png)<br>
 В основной файл JavaScript app.js служит для подключения модулей всего вашего сайта. В него уже импортированы два модуля:
 
@@ -160,10 +160,10 @@ build - необходим для выгрузки уже готового пр�
 npm run deploy
 
 Команда выгружает уже законченную и отформатированную версию сайта на сервер по FTP. Для настройки FTP необходимо зайти по адресу gulp/config/ftp.js и настроить следующие данные:
-<br>
+
 ![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/scr7.png)<br>
 А так же необходимо указать название папки в gulp/config/path.js
-<br>
+
 ![image](https://github.com/seelentov/seelentov-gulp-webdev/blob/main/readmeimg/scr8.png)<br>
 
 
