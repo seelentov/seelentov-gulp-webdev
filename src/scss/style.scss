@@ -65,19 +65,19 @@
 //=======================================================================
 
 ::-webkit-scrollbar {
-  width: inherit;
+  width: 20px;
 }
 
 ::-webkit-scrollbar-track {
-  background: inherit; 
+  background: white; 
 }
 
 ::-webkit-scrollbar-thumb {
-  background: inherit; 
+  background: rgb(105, 105, 105); 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: inherit; 
+  background: rgb(54, 54, 54); 
 }
 
 //=======================================================================
