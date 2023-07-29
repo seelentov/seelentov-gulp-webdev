@@ -1,7 +1,6 @@
 <h1>Сборка GULP для верстки от Seelentov</h1>
 
 - Отдельные модули html, js и scss
-- Сжатие изображений
 - Сжатие css и js кода
 - Mocha, chai тесты
 - ESLint
